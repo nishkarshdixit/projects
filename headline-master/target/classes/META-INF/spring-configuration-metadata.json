@@ -1,0 +1,32 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.til.utils.APIConfiguration",
+      "name": "",
+      "type": "com.til.utils.APIConfiguration"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.til.utils.APIConfiguration",
+      "name": "api-key",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.til.utils.APIConfiguration",
+      "name": "api-u-r-l",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.til.utils.APIConfiguration",
+      "name": "password",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.til.utils.APIConfiguration",
+      "name": "user-name",
+      "type": "java.lang.String"
+    }
+  ]
+}

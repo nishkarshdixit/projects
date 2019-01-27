@@ -1,0 +1,785 @@
+2019-01-25 12:19:37,627 INFO  Version:21 - HV000001: Hibernate Validator 6.0.11.Final
+2019-01-25 12:19:37,861 INFO  HeadlineApplication:50 - Starting HeadlineApplication on nishkarsh with PID 9158 (/home/imart/Downloads/headline-master/target/classes started by imart in /home/imart/Downloads/headline-master)
+2019-01-25 12:19:37,862 INFO  HeadlineApplication:662 - No active profile set, falling back to default profiles: default
+2019-01-25 12:19:37,891 INFO  AnnotationConfigServletWebServerApplicationContext:590 - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@58359ebd: startup date [Fri Jan 25 12:19:37 IST 2019]; root of context hierarchy
+2019-01-25 12:19:38,829 INFO  TomcatWebServer:91 - Tomcat initialized with port(s): 8080 (http)
+2019-01-25 12:19:38,904 INFO  ContextLoader:285 - Root WebApplicationContext: initialization completed in 1015 ms
+2019-01-25 12:19:38,958 INFO  FilterRegistrationBean:245 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-01-25 12:19:38,959 INFO  FilterRegistrationBean:245 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-01-25 12:19:38,959 INFO  FilterRegistrationBean:245 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-01-25 12:19:38,959 INFO  FilterRegistrationBean:245 - Mapping filter: 'requestContextFilter' to: [/*]
+2019-01-25 12:19:38,960 INFO  DelegatingFilterProxyRegistrationBean:245 - Mapping filter: 'springSecurityFilterChain' to: [/*]
+2019-01-25 12:19:38,960 INFO  ServletRegistrationBean:187 - Servlet dispatcherServlet mapped to [/]
+2019-01-25 12:19:39,252 INFO  DefaultSecurityFilterChain:43 - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2513a118, org.springframework.security.web.context.SecurityContextPersistenceFilter@462e1e64, org.springframework.security.web.header.HeaderWriterFilter@330c1f61, org.springframework.security.web.authentication.logout.LogoutFilter@485e13d7, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@f1f7db2, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@49f40c00, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2f0ed952, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2bfb583b, org.springframework.security.web.session.SessionManagementFilter@31e2232f, org.springframework.security.web.access.ExceptionTranslationFilter@6af91cc8, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6f798482]
+2019-01-25 12:19:39,311 INFO  SimpleUrlHandlerMapping:373 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-25 12:19:39,413 INFO  RequestMappingHandlerAdapter:574 - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@58359ebd: startup date [Fri Jan 25 12:19:37 IST 2019]; root of context hierarchy
+2019-01-25 12:19:39,504 INFO  RequestMappingHandlerMapping:547 - Mapped "{[/rest/v1/headlines]}" onto public org.springframework.http.ResponseEntity<com.til.dto.ResponseDTO> com.til.controller.v1.HeadLineController.getHeadlines(com.til.co.HeadLineCO)
+2019-01-25 12:19:39,507 INFO  RequestMappingHandlerMapping:547 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-01-25 12:19:39,507 INFO  RequestMappingHandlerMapping:547 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-01-25 12:19:39,525 INFO  SimpleUrlHandlerMapping:373 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-25 12:19:39,525 INFO  SimpleUrlHandlerMapping:373 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-25 12:19:39,536 INFO  ExceptionHandlerExceptionResolver:288 - Detected @ExceptionHandler methods in errorController
+2019-01-25 12:19:39,657 INFO  AnnotationMBeanExporter:433 - Registering beans for JMX exposure on startup
+2019-01-25 12:19:39,680 INFO  TomcatWebServer:206 - Tomcat started on port(s): 8080 (http) with context path ''
+2019-01-25 12:19:39,683 INFO  HeadlineApplication:59 - Started HeadlineApplication in 2.551 seconds (JVM running for 4.926)
+2019-01-25 12:19:56,156 INFO  DispatcherServlet:494 - FrameworkServlet 'dispatcherServlet': initialization started
+2019-01-25 12:19:56,168 INFO  DispatcherServlet:509 - FrameworkServlet 'dispatcherServlet': initialization completed in 12 ms
+2019-01-25 12:52:07,691 INFO  AnnotationConfigServletWebServerApplicationContext:993 - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@58359ebd: startup date [Fri Jan 25 12:19:37 IST 2019]; root of context hierarchy
+2019-01-25 12:52:11,208 INFO  Version:21 - HV000001: Hibernate Validator 6.0.11.Final
+2019-01-25 12:52:11,341 INFO  HeadlineApplication:50 - Starting HeadlineApplication on nishkarsh with PID 10360 (/home/imart/Downloads/headline-master/target/classes started by imart in /home/imart/Downloads/headline-master)
+2019-01-25 12:52:11,342 INFO  HeadlineApplication:662 - No active profile set, falling back to default profiles: default
+2019-01-25 12:52:11,389 INFO  AnnotationConfigServletWebServerApplicationContext:590 - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@758c83d8: startup date [Fri Jan 25 12:52:11 IST 2019]; root of context hierarchy
+2019-01-25 12:52:12,090 INFO  TomcatWebServer:91 - Tomcat initialized with port(s): 8080 (http)
+2019-01-25 12:52:12,167 INFO  ContextLoader:285 - Root WebApplicationContext: initialization completed in 780 ms
+2019-01-25 12:52:12,229 INFO  FilterRegistrationBean:245 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-01-25 12:52:12,230 INFO  FilterRegistrationBean:245 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-01-25 12:52:12,230 INFO  FilterRegistrationBean:245 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-01-25 12:52:12,230 INFO  FilterRegistrationBean:245 - Mapping filter: 'requestContextFilter' to: [/*]
+2019-01-25 12:52:12,230 INFO  DelegatingFilterProxyRegistrationBean:245 - Mapping filter: 'springSecurityFilterChain' to: [/*]
+2019-01-25 12:52:12,231 INFO  ServletRegistrationBean:187 - Servlet dispatcherServlet mapped to [/]
+2019-01-25 12:52:12,462 INFO  DefaultSecurityFilterChain:43 - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@17ba57f0, org.springframework.security.web.context.SecurityContextPersistenceFilter@5a034157, org.springframework.security.web.header.HeaderWriterFilter@3a790e40, org.springframework.security.web.authentication.logout.LogoutFilter@2dfb885e, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@7be1ce6a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1391af3b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@135a8c6f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3481ff98, org.springframework.security.web.session.SessionManagementFilter@4b4ee511, org.springframework.security.web.access.ExceptionTranslationFilter@38830ea, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1fc713c9]
+2019-01-25 12:52:12,516 INFO  SimpleUrlHandlerMapping:373 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-25 12:52:12,618 INFO  RequestMappingHandlerAdapter:574 - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@758c83d8: startup date [Fri Jan 25 12:52:11 IST 2019]; root of context hierarchy
+2019-01-25 12:52:12,708 INFO  RequestMappingHandlerMapping:547 - Mapped "{[/rest/v1/headlines]}" onto public org.springframework.http.ResponseEntity<com.til.dto.ResponseDTO> com.til.controller.v1.HeadLineController.getHeadlines(com.til.co.HeadLineCO)
+2019-01-25 12:52:12,711 INFO  RequestMappingHandlerMapping:547 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-01-25 12:52:12,712 INFO  RequestMappingHandlerMapping:547 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-01-25 12:52:12,729 INFO  SimpleUrlHandlerMapping:373 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-25 12:52:12,730 INFO  SimpleUrlHandlerMapping:373 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-25 12:52:12,740 INFO  ExceptionHandlerExceptionResolver:288 - Detected @ExceptionHandler methods in errorController
+2019-01-25 12:52:12,860 INFO  AnnotationMBeanExporter:433 - Registering beans for JMX exposure on startup
+2019-01-25 12:52:12,882 INFO  TomcatWebServer:206 - Tomcat started on port(s): 8080 (http) with context path ''
+2019-01-25 12:52:12,885 INFO  HeadlineApplication:59 - Started HeadlineApplication in 1.807 seconds (JVM running for 2.832)
+2019-01-25 12:52:17,703 INFO  DispatcherServlet:494 - FrameworkServlet 'dispatcherServlet': initialization started
+2019-01-25 12:52:17,715 INFO  DispatcherServlet:509 - FrameworkServlet 'dispatcherServlet': initialization completed in 12 ms
+2019-01-25 12:52:25,059 INFO  AnnotationConfigServletWebServerApplicationContext:993 - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@758c83d8: startup date [Fri Jan 25 12:52:11 IST 2019]; root of context hierarchy
+2019-01-25 12:52:35,068 INFO  Version:21 - HV000001: Hibernate Validator 6.0.11.Final
+2019-01-25 12:52:35,212 INFO  HeadlineApplication:50 - Starting HeadlineApplication on nishkarsh with PID 10527 (/home/imart/Downloads/headline-master/target/classes started by imart in /home/imart/Downloads/headline-master)
+2019-01-25 12:52:35,213 INFO  HeadlineApplication:662 - No active profile set, falling back to default profiles: default
+2019-01-25 12:52:35,256 INFO  AnnotationConfigServletWebServerApplicationContext:590 - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4ee37ca3: startup date [Fri Jan 25 12:52:35 IST 2019]; root of context hierarchy
+2019-01-25 12:52:36,144 INFO  TomcatWebServer:91 - Tomcat initialized with port(s): 8080 (http)
+2019-01-25 12:52:36,224 INFO  ContextLoader:285 - Root WebApplicationContext: initialization completed in 971 ms
+2019-01-25 12:52:36,274 INFO  FilterRegistrationBean:245 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-01-25 12:52:36,275 INFO  FilterRegistrationBean:245 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-01-25 12:52:36,275 INFO  FilterRegistrationBean:245 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-01-25 12:52:36,275 INFO  FilterRegistrationBean:245 - Mapping filter: 'requestContextFilter' to: [/*]
+2019-01-25 12:52:36,276 INFO  DelegatingFilterProxyRegistrationBean:245 - Mapping filter: 'springSecurityFilterChain' to: [/*]
+2019-01-25 12:52:36,276 INFO  ServletRegistrationBean:187 - Servlet dispatcherServlet mapped to [/]
+2019-01-25 12:52:36,496 INFO  DefaultSecurityFilterChain:43 - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4b0b64cc, org.springframework.security.web.context.SecurityContextPersistenceFilter@4c86da0c, org.springframework.security.web.header.HeaderWriterFilter@17461db, org.springframework.security.web.authentication.logout.LogoutFilter@26fb4d06, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@4d499d65, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6732726, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6e6d4780, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@59ce792e, org.springframework.security.web.session.SessionManagementFilter@7fb48179, org.springframework.security.web.access.ExceptionTranslationFilter@43a65cd8, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2503ec73]
+2019-01-25 12:52:36,552 INFO  SimpleUrlHandlerMapping:373 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-25 12:52:36,655 INFO  RequestMappingHandlerAdapter:574 - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4ee37ca3: startup date [Fri Jan 25 12:52:35 IST 2019]; root of context hierarchy
+2019-01-25 12:52:36,746 INFO  RequestMappingHandlerMapping:547 - Mapped "{[/rest/v1/headlines]}" onto public org.springframework.http.ResponseEntity<com.til.dto.ResponseDTO> com.til.controller.v1.HeadLineController.getHeadlines(com.til.co.HeadLineCO)
+2019-01-25 12:52:36,749 INFO  RequestMappingHandlerMapping:547 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-01-25 12:52:36,750 INFO  RequestMappingHandlerMapping:547 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-01-25 12:52:36,767 INFO  SimpleUrlHandlerMapping:373 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-25 12:52:36,768 INFO  SimpleUrlHandlerMapping:373 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-25 12:52:36,778 INFO  ExceptionHandlerExceptionResolver:288 - Detected @ExceptionHandler methods in errorController
+2019-01-25 12:52:36,899 INFO  AnnotationMBeanExporter:433 - Registering beans for JMX exposure on startup
+2019-01-25 12:52:36,921 INFO  TomcatWebServer:206 - Tomcat started on port(s): 8080 (http) with context path ''
+2019-01-25 12:52:36,924 INFO  HeadlineApplication:59 - Started HeadlineApplication in 1.984 seconds (JVM running for 2.792)
+2019-01-25 12:52:39,236 INFO  DispatcherServlet:494 - FrameworkServlet 'dispatcherServlet': initialization started
+2019-01-25 12:52:39,247 INFO  DispatcherServlet:509 - FrameworkServlet 'dispatcherServlet': initialization completed in 11 ms
+2019-01-25 12:59:44,805 INFO  AnnotationConfigServletWebServerApplicationContext:993 - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4ee37ca3: startup date [Fri Jan 25 12:52:35 IST 2019]; root of context hierarchy
+2019-01-25 12:59:47,795 INFO  Version:21 - HV000001: Hibernate Validator 6.0.11.Final
+2019-01-25 12:59:47,955 INFO  HeadlineApplication:50 - Starting HeadlineApplication on nishkarsh with PID 11502 (/home/imart/Downloads/headline-master/target/classes started by imart in /home/imart/Downloads/headline-master)
+2019-01-25 12:59:47,957 INFO  HeadlineApplication:662 - No active profile set, falling back to default profiles: default
+2019-01-25 12:59:48,031 INFO  AnnotationConfigServletWebServerApplicationContext:590 - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@306851c7: startup date [Fri Jan 25 12:59:48 IST 2019]; root of context hierarchy
+2019-01-25 12:59:48,805 INFO  TomcatWebServer:91 - Tomcat initialized with port(s): 8080 (http)
+2019-01-25 12:59:48,933 INFO  ContextLoader:285 - Root WebApplicationContext: initialization completed in 904 ms
+2019-01-25 12:59:48,984 INFO  FilterRegistrationBean:245 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-01-25 12:59:48,985 INFO  FilterRegistrationBean:245 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-01-25 12:59:48,985 INFO  FilterRegistrationBean:245 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-01-25 12:59:48,985 INFO  FilterRegistrationBean:245 - Mapping filter: 'requestContextFilter' to: [/*]
+2019-01-25 12:59:48,985 INFO  DelegatingFilterProxyRegistrationBean:245 - Mapping filter: 'springSecurityFilterChain' to: [/*]
+2019-01-25 12:59:48,986 INFO  ServletRegistrationBean:187 - Servlet dispatcherServlet mapped to [/]
+2019-01-25 12:59:49,153 INFO  SimpleUrlHandlerMapping:373 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-25 12:59:49,256 INFO  RequestMappingHandlerAdapter:574 - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@306851c7: startup date [Fri Jan 25 12:59:48 IST 2019]; root of context hierarchy
+2019-01-25 12:59:49,293 INFO  RequestMappingHandlerMapping:547 - Mapped "{[/rest/v1/headlines]}" onto public org.springframework.http.ResponseEntity<com.til.dto.ResponseDTO> com.til.controller.v1.HeadLineController.getHeadlines(com.til.co.HeadLineCO)
+2019-01-25 12:59:49,296 INFO  RequestMappingHandlerMapping:547 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-01-25 12:59:49,297 INFO  RequestMappingHandlerMapping:547 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-01-25 12:59:49,314 INFO  SimpleUrlHandlerMapping:373 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-25 12:59:49,314 INFO  SimpleUrlHandlerMapping:373 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-25 12:59:49,327 INFO  ExceptionHandlerExceptionResolver:288 - Detected @ExceptionHandler methods in errorController
+2019-01-25 12:59:49,597 INFO  DefaultSecurityFilterChain:43 - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@80b122b, org.springframework.security.web.context.SecurityContextPersistenceFilter@18b74ea, org.springframework.security.web.header.HeaderWriterFilter@383caf89, org.springframework.security.web.authentication.logout.LogoutFilter@3ba3d4b6, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@1d06f16f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@493da830, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@29c17c3d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@999b951, org.springframework.security.web.session.SessionManagementFilter@14c93774, org.springframework.security.web.access.ExceptionTranslationFilter@5c9934da, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2404b5a]
+2019-01-25 12:59:49,631 INFO  AnnotationMBeanExporter:433 - Registering beans for JMX exposure on startup
+2019-01-25 12:59:49,652 INFO  TomcatWebServer:206 - Tomcat started on port(s): 8080 (http) with context path ''
+2019-01-25 12:59:49,656 INFO  HeadlineApplication:59 - Started HeadlineApplication in 1.992 seconds (JVM running for 2.807)
+2019-01-25 12:59:53,044 INFO  DispatcherServlet:494 - FrameworkServlet 'dispatcherServlet': initialization started
+2019-01-25 12:59:53,057 INFO  DispatcherServlet:509 - FrameworkServlet 'dispatcherServlet': initialization completed in 13 ms
+2019-01-25 13:03:56,285 INFO  AnnotationConfigServletWebServerApplicationContext:993 - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@306851c7: startup date [Fri Jan 25 12:59:48 IST 2019]; root of context hierarchy
+2019-01-25 13:04:01,054 INFO  Version:21 - HV000001: Hibernate Validator 6.0.11.Final
+2019-01-25 13:04:01,137 INFO  HeadlineApplication:50 - Starting HeadlineApplication on nishkarsh with PID 11899 (/home/imart/Downloads/headline-master/target/classes started by imart in /home/imart/Downloads/headline-master)
+2019-01-25 13:04:01,138 INFO  HeadlineApplication:662 - No active profile set, falling back to default profiles: default
+2019-01-25 13:04:01,163 INFO  AnnotationConfigServletWebServerApplicationContext:590 - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@73ee04c8: startup date [Fri Jan 25 13:04:01 IST 2019]; root of context hierarchy
+2019-01-25 13:04:01,843 INFO  TomcatWebServer:91 - Tomcat initialized with port(s): 8080 (http)
+2019-01-25 13:04:01,903 INFO  ContextLoader:285 - Root WebApplicationContext: initialization completed in 742 ms
+2019-01-25 13:04:01,942 INFO  FilterRegistrationBean:245 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-01-25 13:04:01,943 INFO  FilterRegistrationBean:245 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-01-25 13:04:01,943 INFO  FilterRegistrationBean:245 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-01-25 13:04:01,943 INFO  FilterRegistrationBean:245 - Mapping filter: 'requestContextFilter' to: [/*]
+2019-01-25 13:04:01,943 INFO  DelegatingFilterProxyRegistrationBean:245 - Mapping filter: 'springSecurityFilterChain' to: [/*]
+2019-01-25 13:04:01,943 INFO  ServletRegistrationBean:187 - Servlet dispatcherServlet mapped to [/]
+2019-01-25 13:04:02,071 INFO  SimpleUrlHandlerMapping:373 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-25 13:04:02,176 INFO  RequestMappingHandlerAdapter:574 - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@73ee04c8: startup date [Fri Jan 25 13:04:01 IST 2019]; root of context hierarchy
+2019-01-25 13:04:02,207 INFO  RequestMappingHandlerMapping:547 - Mapped "{[/rest/v1/headlines]}" onto public org.springframework.http.ResponseEntity<com.til.dto.ResponseDTO> com.til.controller.v1.HeadLineController.getHeadlines(com.til.co.HeadLineCO)
+2019-01-25 13:04:02,209 INFO  RequestMappingHandlerMapping:547 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-01-25 13:04:02,210 INFO  RequestMappingHandlerMapping:547 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-01-25 13:04:02,223 INFO  SimpleUrlHandlerMapping:373 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-25 13:04:02,223 INFO  SimpleUrlHandlerMapping:373 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-25 13:04:02,232 INFO  ExceptionHandlerExceptionResolver:288 - Detected @ExceptionHandler methods in errorController
+2019-01-25 13:04:02,428 INFO  DefaultSecurityFilterChain:43 - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@59532566, org.springframework.security.web.context.SecurityContextPersistenceFilter@1f52eb6f, org.springframework.security.web.header.HeaderWriterFilter@256a1825, org.springframework.security.web.authentication.logout.LogoutFilter@2bc9a775, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@35088e87, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@58294867, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1e6dad8, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@dca2615, org.springframework.security.web.session.SessionManagementFilter@2e3cdec2, org.springframework.security.web.access.ExceptionTranslationFilter@22bd2039, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4f8b4bd0]
+2019-01-25 13:04:02,455 INFO  AnnotationMBeanExporter:433 - Registering beans for JMX exposure on startup
+2019-01-25 13:04:02,474 INFO  TomcatWebServer:206 - Tomcat started on port(s): 8080 (http) with context path ''
+2019-01-25 13:04:02,477 INFO  HeadlineApplication:59 - Started HeadlineApplication in 1.528 seconds (JVM running for 2.123)
+2019-01-25 13:04:05,749 INFO  DispatcherServlet:494 - FrameworkServlet 'dispatcherServlet': initialization started
+2019-01-25 13:04:05,757 INFO  DispatcherServlet:509 - FrameworkServlet 'dispatcherServlet': initialization completed in 8 ms
+2019-01-25 13:06:51,311 INFO  HeadLineController:28 - Received query for headlines: HeadLineCO{country='null', category='null', q='cricket', pageSize=20, page=0, sources=null}
+2019-01-25 13:06:51,445 ERROR QueryHandlerService:42 - Exception in getting data from API.
+org.apache.http.client.ClientProtocolException: null
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:186) ~[httpclient-4.3.5.jar:4.3.5]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82) ~[httpclient-4.3.5.jar:4.3.5]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:106) ~[httpclient-4.3.5.jar:4.3.5]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57) ~[httpclient-4.3.5.jar:4.3.5]
+	at com.til.utils.HttpUtils.get(HttpUtils.java:71) ~[classes/:?]
+	at com.til.services.QueryHandlerService.getHeadLines(QueryHandlerService.java:40) [classes/:?]
+	at com.til.controller.v1.HeadLineController.getHeadlines(HeadLineController.java:31) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_191]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_191]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_191]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_191]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:209) [spring-web-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136) [spring-web-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102) [spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:877) [spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:783) [spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) [spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:991) [spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925) [spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:974) [spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:877) [spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851) [spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) [tomcat-embed-websocket-8.5.32.jar:8.5.32]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:127) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:91) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:170) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.security.web.authentication.www.BasicAuthenticationFilter.doFilterInternal(BasicAuthenticationFilter.java:215) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:66) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357) [spring-web-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270) [spring-web-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) [spring-web-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109) [spring-web-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) [spring-web-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) [spring-web-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:800) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:800) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1471) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_191]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_191]
+Caused by: org.apache.http.ProtocolException: Target host is not specified
+	at org.apache.http.impl.conn.DefaultRoutePlanner.determineRoute(DefaultRoutePlanner.java:69) ~[httpclient-4.3.5.jar:4.3.5]
+	at org.apache.http.impl.client.InternalHttpClient.determineRoute(InternalHttpClient.java:124) ~[httpclient-4.3.5.jar:4.3.5]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:183) ~[httpclient-4.3.5.jar:4.3.5]
+	... 93 more
+2019-01-25 13:18:21,885 INFO  AnnotationConfigServletWebServerApplicationContext:993 - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@73ee04c8: startup date [Fri Jan 25 13:04:01 IST 2019]; root of context hierarchy
+2019-01-25 13:18:25,088 INFO  Version:21 - HV000001: Hibernate Validator 6.0.11.Final
+2019-01-25 13:18:25,180 INFO  HeadlineApplication:50 - Starting HeadlineApplication on nishkarsh with PID 12858 (/home/imart/Downloads/headline-master/target/classes started by imart in /home/imart/Downloads/headline-master)
+2019-01-25 13:18:25,181 INFO  HeadlineApplication:662 - No active profile set, falling back to default profiles: default
+2019-01-25 13:18:25,212 INFO  AnnotationConfigServletWebServerApplicationContext:590 - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@51dcb805: startup date [Fri Jan 25 13:18:25 IST 2019]; root of context hierarchy
+2019-01-25 13:18:25,875 INFO  TomcatWebServer:91 - Tomcat initialized with port(s): 8080 (http)
+2019-01-25 13:18:25,939 INFO  ContextLoader:285 - Root WebApplicationContext: initialization completed in 727 ms
+2019-01-25 13:18:25,984 INFO  FilterRegistrationBean:245 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-01-25 13:18:25,984 INFO  FilterRegistrationBean:245 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-01-25 13:18:25,985 INFO  FilterRegistrationBean:245 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-01-25 13:18:25,985 INFO  FilterRegistrationBean:245 - Mapping filter: 'requestContextFilter' to: [/*]
+2019-01-25 13:18:25,985 INFO  DelegatingFilterProxyRegistrationBean:245 - Mapping filter: 'springSecurityFilterChain' to: [/*]
+2019-01-25 13:18:25,985 INFO  ServletRegistrationBean:187 - Servlet dispatcherServlet mapped to [/]
+2019-01-25 13:18:26,183 INFO  DefaultSecurityFilterChain:43 - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@588ffeb, org.springframework.security.web.context.SecurityContextPersistenceFilter@6ad5923a, org.springframework.security.web.header.HeaderWriterFilter@7c8326a4, org.springframework.security.web.authentication.logout.LogoutFilter@6a74d228, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@cda0432, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@43b0ade, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@312afbc7, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7c28c1, org.springframework.security.web.session.SessionManagementFilter@732bb66d, org.springframework.security.web.access.ExceptionTranslationFilter@6ad11a56, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4d4960c8]
+2019-01-25 13:18:26,224 INFO  SimpleUrlHandlerMapping:373 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-25 13:18:26,304 INFO  RequestMappingHandlerAdapter:574 - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@51dcb805: startup date [Fri Jan 25 13:18:25 IST 2019]; root of context hierarchy
+2019-01-25 13:18:26,336 INFO  RequestMappingHandlerMapping:547 - Mapped "{[/rest/v1/headlines]}" onto public org.springframework.http.ResponseEntity<com.til.dto.ResponseDTO> com.til.controller.v1.HeadLineController.getHeadlines(com.til.co.HeadLineCO)
+2019-01-25 13:18:26,339 INFO  RequestMappingHandlerMapping:547 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-01-25 13:18:26,339 INFO  RequestMappingHandlerMapping:547 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-01-25 13:18:26,353 INFO  SimpleUrlHandlerMapping:373 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-25 13:18:26,353 INFO  SimpleUrlHandlerMapping:373 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-25 13:18:26,361 INFO  ExceptionHandlerExceptionResolver:288 - Detected @ExceptionHandler methods in errorController
+2019-01-25 13:18:26,511 INFO  AnnotationMBeanExporter:433 - Registering beans for JMX exposure on startup
+2019-01-25 13:18:26,531 INFO  TomcatWebServer:206 - Tomcat started on port(s): 8080 (http) with context path ''
+2019-01-25 13:18:26,533 INFO  HeadlineApplication:59 - Started HeadlineApplication in 1.573 seconds (JVM running for 2.644)
+2019-01-25 13:21:40,282 INFO  DispatcherServlet:494 - FrameworkServlet 'dispatcherServlet': initialization started
+2019-01-25 13:21:40,293 INFO  DispatcherServlet:509 - FrameworkServlet 'dispatcherServlet': initialization completed in 10 ms
+2019-01-25 13:21:47,075 INFO  HeadLineController:28 - Received query for headlines: HeadLineCO{country='null', category='null', q='cricket', pageSize=20, page=0, sources=null}
+2019-01-25 13:21:47,216 ERROR QueryHandlerService:42 - Exception in getting data from API.
+org.apache.http.client.ClientProtocolException: null
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:186) ~[httpclient-4.3.5.jar:4.3.5]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82) ~[httpclient-4.3.5.jar:4.3.5]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:106) ~[httpclient-4.3.5.jar:4.3.5]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57) ~[httpclient-4.3.5.jar:4.3.5]
+	at com.til.utils.HttpUtils.get(HttpUtils.java:71) ~[classes/:?]
+	at com.til.services.QueryHandlerService.getHeadLines(QueryHandlerService.java:40) [classes/:?]
+	at com.til.controller.v1.HeadLineController.getHeadlines(HeadLineController.java:31) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_191]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_191]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_191]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_191]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:209) [spring-web-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136) [spring-web-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102) [spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:877) [spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:783) [spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) [spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:991) [spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925) [spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:974) [spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:877) [spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851) [spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) [tomcat-embed-websocket-8.5.32.jar:8.5.32]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:127) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:91) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:170) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.security.web.authentication.www.BasicAuthenticationFilter.doFilterInternal(BasicAuthenticationFilter.java:215) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:66) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357) [spring-web-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270) [spring-web-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) [spring-web-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109) [spring-web-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) [spring-web-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) [spring-web-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:800) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:800) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1471) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_191]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_191]
+Caused by: org.apache.http.ProtocolException: Target host is not specified
+	at org.apache.http.impl.conn.DefaultRoutePlanner.determineRoute(DefaultRoutePlanner.java:69) ~[httpclient-4.3.5.jar:4.3.5]
+	at org.apache.http.impl.client.InternalHttpClient.determineRoute(InternalHttpClient.java:124) ~[httpclient-4.3.5.jar:4.3.5]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:183) ~[httpclient-4.3.5.jar:4.3.5]
+	... 93 more
+2019-01-25 13:27:49,739 INFO  HeadLineController:28 - Received query for headlines: HeadLineCO{country='null', category='null', q='cricket', pageSize=20, page=0, sources=null}
+2019-01-25 13:27:49,742 ERROR QueryHandlerService:42 - Exception in getting data from API.
+org.apache.http.client.ClientProtocolException: null
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:186) ~[httpclient-4.3.5.jar:4.3.5]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82) ~[httpclient-4.3.5.jar:4.3.5]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:106) ~[httpclient-4.3.5.jar:4.3.5]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57) ~[httpclient-4.3.5.jar:4.3.5]
+	at com.til.utils.HttpUtils.get(HttpUtils.java:71) ~[classes/:?]
+	at com.til.services.QueryHandlerService.getHeadLines(QueryHandlerService.java:40) [classes/:?]
+	at com.til.controller.v1.HeadLineController.getHeadlines(HeadLineController.java:31) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_191]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_191]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_191]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_191]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:209) [spring-web-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136) [spring-web-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102) [spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:877) [spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:783) [spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) [spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:991) [spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925) [spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:974) [spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:877) [spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851) [spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) [tomcat-embed-websocket-8.5.32.jar:8.5.32]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:127) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:91) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:170) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.security.web.authentication.www.BasicAuthenticationFilter.doFilterInternal(BasicAuthenticationFilter.java:215) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:66) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357) [spring-web-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270) [spring-web-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) [spring-web-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109) [spring-web-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) [spring-web-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) [spring-web-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:800) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:800) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1471) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_191]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_191]
+Caused by: org.apache.http.ProtocolException: Target host is not specified
+	at org.apache.http.impl.conn.DefaultRoutePlanner.determineRoute(DefaultRoutePlanner.java:69) ~[httpclient-4.3.5.jar:4.3.5]
+	at org.apache.http.impl.client.InternalHttpClient.determineRoute(InternalHttpClient.java:124) ~[httpclient-4.3.5.jar:4.3.5]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:183) ~[httpclient-4.3.5.jar:4.3.5]
+	... 93 more
+2019-01-25 13:27:58,426 INFO  AnnotationConfigServletWebServerApplicationContext:993 - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@51dcb805: startup date [Fri Jan 25 13:18:25 IST 2019]; root of context hierarchy
+2019-01-25 13:28:02,485 INFO  Version:21 - HV000001: Hibernate Validator 6.0.11.Final
+2019-01-25 13:28:02,631 INFO  HeadlineApplication:50 - Starting HeadlineApplication on nishkarsh with PID 13404 (/home/imart/Downloads/headline-master/target/classes started by imart in /home/imart/Downloads/headline-master)
+2019-01-25 13:28:02,633 INFO  HeadlineApplication:662 - No active profile set, falling back to default profiles: default
+2019-01-25 13:28:02,681 INFO  AnnotationConfigServletWebServerApplicationContext:590 - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@726e5805: startup date [Fri Jan 25 13:28:02 IST 2019]; root of context hierarchy
+2019-01-25 13:28:03,641 INFO  TomcatWebServer:91 - Tomcat initialized with port(s): 8080 (http)
+2019-01-25 13:28:03,736 INFO  ContextLoader:285 - Root WebApplicationContext: initialization completed in 1058 ms
+2019-01-25 13:28:03,803 INFO  FilterRegistrationBean:245 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-01-25 13:28:03,804 INFO  FilterRegistrationBean:245 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-01-25 13:28:03,804 INFO  FilterRegistrationBean:245 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-01-25 13:28:03,804 INFO  FilterRegistrationBean:245 - Mapping filter: 'requestContextFilter' to: [/*]
+2019-01-25 13:28:03,805 INFO  DelegatingFilterProxyRegistrationBean:245 - Mapping filter: 'springSecurityFilterChain' to: [/*]
+2019-01-25 13:28:03,805 INFO  ServletRegistrationBean:187 - Servlet dispatcherServlet mapped to [/]
+2019-01-25 13:28:04,745 INFO  DefaultSecurityFilterChain:43 - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5762658b, org.springframework.security.web.context.SecurityContextPersistenceFilter@52d6d273, org.springframework.security.web.header.HeaderWriterFilter@33f2df51, org.springframework.security.web.authentication.logout.LogoutFilter@3b705be7, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@765d55d5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2f9a4401, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@559cedee, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2629d5dc, org.springframework.security.web.session.SessionManagementFilter@49f40c00, org.springframework.security.web.access.ExceptionTranslationFilter@15efda6c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@403c3a01]
+2019-01-25 13:28:04,833 INFO  SimpleUrlHandlerMapping:373 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-25 13:28:04,989 INFO  RequestMappingHandlerAdapter:574 - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@726e5805: startup date [Fri Jan 25 13:28:02 IST 2019]; root of context hierarchy
+2019-01-25 13:28:05,122 INFO  RequestMappingHandlerMapping:547 - Mapped "{[/rest/v1/headlines]}" onto public org.springframework.http.ResponseEntity<com.til.dto.ResponseDTO> com.til.controller.v1.HeadLineController.getHeadlines(com.til.co.HeadLineCO)
+2019-01-25 13:28:05,126 INFO  RequestMappingHandlerMapping:547 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-01-25 13:28:05,127 INFO  RequestMappingHandlerMapping:547 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-01-25 13:28:05,158 INFO  SimpleUrlHandlerMapping:373 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-25 13:28:05,159 INFO  SimpleUrlHandlerMapping:373 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-25 13:28:05,174 INFO  ExceptionHandlerExceptionResolver:288 - Detected @ExceptionHandler methods in errorController
+2019-01-25 13:28:05,368 INFO  AnnotationMBeanExporter:433 - Registering beans for JMX exposure on startup
+2019-01-25 13:28:05,414 INFO  TomcatWebServer:206 - Tomcat started on port(s): 8080 (http) with context path ''
+2019-01-25 13:28:05,419 INFO  HeadlineApplication:59 - Started HeadlineApplication in 3.074 seconds (JVM running for 3.872)
+2019-01-25 13:28:15,484 INFO  DispatcherServlet:494 - FrameworkServlet 'dispatcherServlet': initialization started
+2019-01-25 13:28:15,502 INFO  DispatcherServlet:509 - FrameworkServlet 'dispatcherServlet': initialization completed in 18 ms
+2019-01-25 13:28:22,723 INFO  HeadLineController:28 - Received query for headlines: HeadLineCO{country='null', category='null', q='cricket', pageSize=20, page=0, sources=null}
+2019-01-25 13:32:27,878 ERROR QueryHandlerService:42 - Exception in getting data from API.
+org.apache.http.client.ClientProtocolException: null
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:186) ~[httpclient-4.3.5.jar:4.3.5]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82) ~[httpclient-4.3.5.jar:4.3.5]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:106) ~[httpclient-4.3.5.jar:4.3.5]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57) ~[httpclient-4.3.5.jar:4.3.5]
+	at com.til.utils.HttpUtils.get(HttpUtils.java:71) ~[classes/:?]
+	at com.til.services.QueryHandlerService.getHeadLines(QueryHandlerService.java:40) [classes/:?]
+	at com.til.controller.v1.HeadLineController.getHeadlines(HeadLineController.java:31) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_191]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_191]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_191]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_191]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:209) [spring-web-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136) [spring-web-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102) [spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:877) [spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:783) [spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) [spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:991) [spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925) [spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:974) [spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:877) [spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851) [spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) [tomcat-embed-websocket-8.5.32.jar:8.5.32]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:127) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:91) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:170) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.security.web.authentication.www.BasicAuthenticationFilter.doFilterInternal(BasicAuthenticationFilter.java:215) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:66) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357) [spring-web-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270) [spring-web-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) [spring-web-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109) [spring-web-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) [spring-web-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) [spring-web-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:800) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:800) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1471) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_191]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_191]
+Caused by: org.apache.http.ProtocolException: Target host is not specified
+	at org.apache.http.impl.conn.DefaultRoutePlanner.determineRoute(DefaultRoutePlanner.java:69) ~[httpclient-4.3.5.jar:4.3.5]
+	at org.apache.http.impl.client.InternalHttpClient.determineRoute(InternalHttpClient.java:124) ~[httpclient-4.3.5.jar:4.3.5]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:183) ~[httpclient-4.3.5.jar:4.3.5]
+	... 93 more
+2019-01-25 13:32:38,427 INFO  HeadLineController:28 - Received query for headlines: HeadLineCO{country='null', category='null', q='cricket', pageSize=20, page=0, sources=null}
+2019-01-25 13:33:23,109 ERROR QueryHandlerService:42 - Exception in getting data from API.
+org.apache.http.client.ClientProtocolException: null
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:186) ~[httpclient-4.3.5.jar:4.3.5]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82) ~[httpclient-4.3.5.jar:4.3.5]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:106) ~[httpclient-4.3.5.jar:4.3.5]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57) ~[httpclient-4.3.5.jar:4.3.5]
+	at com.til.utils.HttpUtils.get(HttpUtils.java:71) ~[classes/:?]
+	at com.til.services.QueryHandlerService.getHeadLines(QueryHandlerService.java:40) [classes/:?]
+	at com.til.controller.v1.HeadLineController.getHeadlines(HeadLineController.java:31) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_191]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_191]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_191]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_191]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:209) [spring-web-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136) [spring-web-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102) [spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:877) [spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:783) [spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) [spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:991) [spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925) [spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:974) [spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:877) [spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851) [spring-webmvc-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) [tomcat-embed-websocket-8.5.32.jar:8.5.32]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:127) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:91) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:170) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.security.web.authentication.www.BasicAuthenticationFilter.doFilterInternal(BasicAuthenticationFilter.java:215) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:66) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178) [spring-security-web-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357) [spring-web-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270) [spring-web-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) [spring-web-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109) [spring-web-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) [spring-web-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) [spring-web-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:800) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:800) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1471) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_191]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-8.5.32.jar:8.5.32]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_191]
+Caused by: org.apache.http.ProtocolException: Target host is not specified
+	at org.apache.http.impl.conn.DefaultRoutePlanner.determineRoute(DefaultRoutePlanner.java:69) ~[httpclient-4.3.5.jar:4.3.5]
+	at org.apache.http.impl.client.InternalHttpClient.determineRoute(InternalHttpClient.java:124) ~[httpclient-4.3.5.jar:4.3.5]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:183) ~[httpclient-4.3.5.jar:4.3.5]
+	... 93 more
+2019-01-25 13:33:23,137 INFO  AnnotationConfigServletWebServerApplicationContext:993 - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@726e5805: startup date [Fri Jan 25 13:28:02 IST 2019]; root of context hierarchy
+2019-01-25 13:33:30,720 INFO  Version:21 - HV000001: Hibernate Validator 6.0.11.Final
+2019-01-25 13:33:30,879 INFO  HeadlineApplication:50 - Starting HeadlineApplication on nishkarsh with PID 13740 (/home/imart/Downloads/headline-master/target/classes started by imart in /home/imart/Downloads/headline-master)
+2019-01-25 13:33:30,881 INFO  HeadlineApplication:662 - No active profile set, falling back to default profiles: default
+2019-01-25 13:33:30,929 INFO  AnnotationConfigServletWebServerApplicationContext:590 - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6821ea29: startup date [Fri Jan 25 13:33:30 IST 2019]; root of context hierarchy
+2019-01-25 13:33:31,897 INFO  TomcatWebServer:91 - Tomcat initialized with port(s): 8080 (http)
+2019-01-25 13:33:32,008 INFO  ContextLoader:285 - Root WebApplicationContext: initialization completed in 1083 ms
+2019-01-25 13:33:32,061 INFO  FilterRegistrationBean:245 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-01-25 13:33:32,061 INFO  FilterRegistrationBean:245 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-01-25 13:33:32,061 INFO  FilterRegistrationBean:245 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-01-25 13:33:32,062 INFO  FilterRegistrationBean:245 - Mapping filter: 'requestContextFilter' to: [/*]
+2019-01-25 13:33:32,062 INFO  DelegatingFilterProxyRegistrationBean:245 - Mapping filter: 'springSecurityFilterChain' to: [/*]
+2019-01-25 13:33:32,062 INFO  ServletRegistrationBean:187 - Servlet dispatcherServlet mapped to [/]
+2019-01-25 13:33:32,834 INFO  DefaultSecurityFilterChain:43 - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@41a374be, org.springframework.security.web.context.SecurityContextPersistenceFilter@70d63e05, org.springframework.security.web.header.HeaderWriterFilter@5b275811, org.springframework.security.web.authentication.logout.LogoutFilter@1b6924cb, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@4f327096, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@485e13d7, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6fbb4061, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@11f9535b, org.springframework.security.web.session.SessionManagementFilter@4b31a708, org.springframework.security.web.access.ExceptionTranslationFilter@3e5fd2b1, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6e4599c0]
+2019-01-25 13:33:32,919 INFO  SimpleUrlHandlerMapping:373 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-25 13:33:33,093 INFO  RequestMappingHandlerAdapter:574 - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6821ea29: startup date [Fri Jan 25 13:33:30 IST 2019]; root of context hierarchy
+2019-01-25 13:33:33,225 INFO  RequestMappingHandlerMapping:547 - Mapped "{[/rest/v1/headlines]}" onto public org.springframework.http.ResponseEntity<com.til.dto.ResponseDTO> com.til.controller.v1.HeadLineController.getHeadlines(com.til.co.HeadLineCO)
+2019-01-25 13:33:33,229 INFO  RequestMappingHandlerMapping:547 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-01-25 13:33:33,230 INFO  RequestMappingHandlerMapping:547 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-01-25 13:33:33,259 INFO  SimpleUrlHandlerMapping:373 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-25 13:33:33,259 INFO  SimpleUrlHandlerMapping:373 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-25 13:33:33,276 INFO  ExceptionHandlerExceptionResolver:288 - Detected @ExceptionHandler methods in errorController
+2019-01-25 13:33:33,466 INFO  AnnotationMBeanExporter:433 - Registering beans for JMX exposure on startup
+2019-01-25 13:33:33,510 INFO  TomcatWebServer:206 - Tomcat started on port(s): 8080 (http) with context path ''
+2019-01-25 13:33:33,516 INFO  HeadlineApplication:59 - Started HeadlineApplication in 2.923 seconds (JVM running for 3.695)
+2019-01-25 13:33:37,772 INFO  DispatcherServlet:494 - FrameworkServlet 'dispatcherServlet': initialization started
+2019-01-25 13:33:37,790 INFO  DispatcherServlet:509 - FrameworkServlet 'dispatcherServlet': initialization completed in 17 ms
+2019-01-25 13:33:40,109 INFO  HeadLineController:28 - Received query for headlines: HeadLineCO{country='null', category='null', q='cricket', pageSize=20, page=0, sources=null}
+2019-01-25 13:33:55,254 INFO  QueryHandlerService:49 - headline API took seconds: 14
+2019-01-25 13:39:30,168 INFO  AnnotationConfigServletWebServerApplicationContext:993 - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6821ea29: startup date [Fri Jan 25 13:33:30 IST 2019]; root of context hierarchy
+2019-01-25 13:39:33,509 INFO  Version:21 - HV000001: Hibernate Validator 6.0.11.Final
+2019-01-25 13:39:33,631 INFO  HeadlineApplication:50 - Starting HeadlineApplication on nishkarsh with PID 14201 (/home/imart/Downloads/headline-master/target/classes started by imart in /home/imart/Downloads/headline-master)
+2019-01-25 13:39:33,633 INFO  HeadlineApplication:662 - No active profile set, falling back to default profiles: default
+2019-01-25 13:39:33,671 INFO  AnnotationConfigServletWebServerApplicationContext:590 - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6b8ca3c8: startup date [Fri Jan 25 13:39:33 IST 2019]; root of context hierarchy
+2019-01-25 13:39:34,588 INFO  TomcatWebServer:91 - Tomcat initialized with port(s): 8080 (http)
+2019-01-25 13:39:34,657 INFO  ContextLoader:285 - Root WebApplicationContext: initialization completed in 989 ms
+2019-01-25 13:39:34,702 INFO  FilterRegistrationBean:245 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-01-25 13:39:34,703 INFO  FilterRegistrationBean:245 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-01-25 13:39:34,703 INFO  FilterRegistrationBean:245 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-01-25 13:39:34,703 INFO  FilterRegistrationBean:245 - Mapping filter: 'requestContextFilter' to: [/*]
+2019-01-25 13:39:34,704 INFO  DelegatingFilterProxyRegistrationBean:245 - Mapping filter: 'springSecurityFilterChain' to: [/*]
+2019-01-25 13:39:34,704 INFO  ServletRegistrationBean:187 - Servlet dispatcherServlet mapped to [/]
+2019-01-25 13:39:34,907 INFO  DefaultSecurityFilterChain:43 - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7808fb9, org.springframework.security.web.context.SecurityContextPersistenceFilter@187eb9a8, org.springframework.security.web.header.HeaderWriterFilter@69b2f8e5, org.springframework.security.web.authentication.logout.LogoutFilter@13d186db, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@7c974942, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6ad11a56, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6f012914, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@773bd77b, org.springframework.security.web.session.SessionManagementFilter@58065f0c, org.springframework.security.web.access.ExceptionTranslationFilter@5173200b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5183d589]
+2019-01-25 13:39:34,951 INFO  SimpleUrlHandlerMapping:373 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-25 13:39:35,034 INFO  RequestMappingHandlerAdapter:574 - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6b8ca3c8: startup date [Fri Jan 25 13:39:33 IST 2019]; root of context hierarchy
+2019-01-25 13:39:35,065 INFO  RequestMappingHandlerMapping:547 - Mapped "{[/rest/v1/headlines]}" onto public org.springframework.http.ResponseEntity<com.til.dto.ResponseDTO> com.til.controller.v1.HeadLineController.getHeadlines(com.til.co.HeadLineCO)
+2019-01-25 13:39:35,068 INFO  RequestMappingHandlerMapping:547 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-01-25 13:39:35,069 INFO  RequestMappingHandlerMapping:547 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-01-25 13:39:35,084 INFO  SimpleUrlHandlerMapping:373 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-25 13:39:35,084 INFO  SimpleUrlHandlerMapping:373 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-25 13:39:35,094 INFO  ExceptionHandlerExceptionResolver:288 - Detected @ExceptionHandler methods in errorController
+2019-01-25 13:39:35,200 INFO  AnnotationMBeanExporter:433 - Registering beans for JMX exposure on startup
+2019-01-25 13:39:35,271 INFO  TomcatWebServer:206 - Tomcat started on port(s): 8080 (http) with context path ''
+2019-01-25 13:39:35,274 INFO  HeadlineApplication:59 - Started HeadlineApplication in 1.872 seconds (JVM running for 2.424)
+2019-01-25 13:40:20,632 INFO  DispatcherServlet:494 - FrameworkServlet 'dispatcherServlet': initialization started
+2019-01-25 13:40:20,642 INFO  DispatcherServlet:509 - FrameworkServlet 'dispatcherServlet': initialization completed in 9 ms
+2019-01-25 13:40:20,819 INFO  HeadLineController:28 - Received query for headlines: HeadLineCO{country='null', category='null', q='cricket', pageSize=20, page=0, sources=null}
+2019-01-25 13:40:23,332 INFO  QueryHandlerService:49 - headline API took seconds: 2
+2019-01-25 13:40:46,973 INFO  AnnotationConfigServletWebServerApplicationContext:993 - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6b8ca3c8: startup date [Fri Jan 25 13:39:33 IST 2019]; root of context hierarchy
+2019-01-25 13:40:50,328 INFO  Version:21 - HV000001: Hibernate Validator 6.0.11.Final
+2019-01-25 13:40:50,478 INFO  HeadlineApplication:50 - Starting HeadlineApplication on nishkarsh with PID 14361 (/home/imart/Downloads/headline-master/target/classes started by imart in /home/imart/Downloads/headline-master)
+2019-01-25 13:40:50,480 INFO  HeadlineApplication:662 - No active profile set, falling back to default profiles: default
+2019-01-25 13:40:50,523 INFO  AnnotationConfigServletWebServerApplicationContext:590 - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3f053c80: startup date [Fri Jan 25 13:40:50 IST 2019]; root of context hierarchy
+2019-01-25 13:40:51,412 INFO  TomcatWebServer:91 - Tomcat initialized with port(s): 8080 (http)
+2019-01-25 13:40:51,536 INFO  ContextLoader:285 - Root WebApplicationContext: initialization completed in 1016 ms
+2019-01-25 13:40:51,589 INFO  FilterRegistrationBean:245 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-01-25 13:40:51,589 INFO  FilterRegistrationBean:245 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-01-25 13:40:51,589 INFO  FilterRegistrationBean:245 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-01-25 13:40:51,590 INFO  FilterRegistrationBean:245 - Mapping filter: 'requestContextFilter' to: [/*]
+2019-01-25 13:40:51,590 INFO  DelegatingFilterProxyRegistrationBean:245 - Mapping filter: 'springSecurityFilterChain' to: [/*]
+2019-01-25 13:40:51,590 INFO  ServletRegistrationBean:187 - Servlet dispatcherServlet mapped to [/]
+2019-01-25 13:40:52,350 INFO  DefaultSecurityFilterChain:43 - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@76a805b7, org.springframework.security.web.context.SecurityContextPersistenceFilter@3902bd2c, org.springframework.security.web.header.HeaderWriterFilter@c386958, org.springframework.security.web.authentication.logout.LogoutFilter@ae73c80, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@57545c3f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@eb6ec6, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7c52fc81, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@15f35bc3, org.springframework.security.web.session.SessionManagementFilter@4db60246, org.springframework.security.web.access.ExceptionTranslationFilter@355c94be, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1945113f]
+2019-01-25 13:40:52,439 INFO  SimpleUrlHandlerMapping:373 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-25 13:40:52,594 INFO  RequestMappingHandlerAdapter:574 - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3f053c80: startup date [Fri Jan 25 13:40:50 IST 2019]; root of context hierarchy
+2019-01-25 13:40:52,669 INFO  RequestMappingHandlerMapping:547 - Mapped "{[/rest/v1/headlines]}" onto public org.springframework.http.ResponseEntity<com.til.dto.ResponseDTO> com.til.controller.v1.HeadLineController.getHeadlines(com.til.co.HeadLineCO)
+2019-01-25 13:40:52,674 INFO  RequestMappingHandlerMapping:547 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-01-25 13:40:52,675 INFO  RequestMappingHandlerMapping:547 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-01-25 13:40:52,705 INFO  SimpleUrlHandlerMapping:373 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-25 13:40:52,705 INFO  SimpleUrlHandlerMapping:373 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-25 13:40:52,722 INFO  ExceptionHandlerExceptionResolver:288 - Detected @ExceptionHandler methods in errorController
+2019-01-25 13:40:52,996 INFO  AnnotationMBeanExporter:433 - Registering beans for JMX exposure on startup
+2019-01-25 13:40:53,037 INFO  TomcatWebServer:206 - Tomcat started on port(s): 8080 (http) with context path ''
+2019-01-25 13:40:53,043 INFO  HeadlineApplication:59 - Started HeadlineApplication in 2.856 seconds (JVM running for 3.677)
+2019-01-25 13:40:55,302 INFO  DispatcherServlet:494 - FrameworkServlet 'dispatcherServlet': initialization started
+2019-01-25 13:40:55,318 INFO  DispatcherServlet:509 - FrameworkServlet 'dispatcherServlet': initialization completed in 16 ms
+2019-01-25 13:41:01,376 INFO  HeadLineController:28 - Received query for headlines: HeadLineCO{country='null', category='null', q='cricket', pageSize=20, page=0, sources=null}
+2019-01-25 15:05:37,127 INFO  QueryHandlerService:49 - headline API took seconds: 5070
