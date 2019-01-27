@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.context.request.WebRequest;
 
 /**
- * Created by Satya on 31-07-2018.
+ * Created by Nishkarsh on 31-07-2018.
  */
 @ControllerAdvice
 public class ErrorController{

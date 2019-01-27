@@ -5,7 +5,7 @@ import org.springframework.http.HttpStatus;
 import java.util.Map;
 
 /**
- * Created by Satya on 31-07-2018.
+ * Created by Nishkarsh on 31-07-2018.
  */
 public class ResponseDTO<T> {
     String message;

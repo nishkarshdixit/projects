@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * Created by Satya on 31-07-2018.
+ * Created by Nishkarsh on 31-07-2018.
  */
 @RestController
 @RequestMapping("/rest/v1")

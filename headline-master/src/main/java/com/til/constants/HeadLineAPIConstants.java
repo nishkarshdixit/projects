@@ -1,7 +1,7 @@
 package com.til.constants;
 
 /**
- * Created by Satya on 31-07-2018.
+ * Created by Nishkarsh on 31-07-2018.
  */
 public class HeadLineAPIConstants {
     public static final String CATEGORY="category";

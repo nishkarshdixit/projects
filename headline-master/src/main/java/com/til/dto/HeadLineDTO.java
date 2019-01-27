@@ -4,7 +4,7 @@ import java.util.Date;
 import java.util.List;
 
 /**
- * Created by Satya on 31-07-2018.
+ * Created by Nishkarsh on 31-07-2018.
  */
 public class HeadLineDTO {
 
